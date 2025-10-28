@@ -1,3 +1,4 @@
+# 💪🏼Bellabeat Fitness Tracker Analysis
 ## Table of Contents
 * [Overview](#overview)
 * [Business Problem](#business-problem)
@@ -127,6 +128,8 @@ A comprehensive dashboard was created in Power BI to visualize these key finding
 ## Final Recommendations
 Based on the analysis, three top recommendations are proposed to influence Bellabeat's marketing strategy:
 
+this is the presentation : [Drive link](https://docs.google.com/presentation/d/1RQL2DzUEOZnk8LL7yQYKN2TCuVpUiyAm7MXU2Qu_w-c/edit?usp=sharing)
+
 1.  **Include More Current Data:** Conduct a new survey targeting 100+ female participants to gather more current (post-2016) data that better reflects Bellabeat's target audience.
 2.  **Set Daily Reminders in the Bellabeat App:** Use app notifications to remind users to log data, encourage them to be more active, and help them build good habits (e.g., reminders to move if sedentary for too long).
 3.  **Offer Bellabeat Membership Discounts for Activity:** Implement a feature where users can earn discounts on Bellabeat memberships by burning calories. This gamifies exercise, encourages more app engagement, and can drive profit growth by converting more users to the paid membership.
@@ -134,5 +137,5 @@ Based on the analysis, three top recommendations are proposed to influence Bella
 ---
 
 ## Author & Contact
-* **Author:** Xinyang Liu
-* **Contact:** [LinkedIn](https://www.linkedin.com/in/xinyangliu1/)
+* **Author:** Mohana Sruthy Mada
+* **Contact:** [LinkedIn](https://www.linkedin.com/in/mohana-sruthy-mada/)
