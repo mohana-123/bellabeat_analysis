@@ -107,6 +107,8 @@ A comprehensive dashboard was created in Power BI to visualize these key finding
 
 **1st page:**
 
+![alt text](<Dashboards and its pics/Screenshot 2025-10-30 163114.png>)
+
 * Average minutes by activity category (Sedentary, Light, Fairly, Very Active)
 * Correlations between calories and steps, distance, and active minutes
 * Total Activity hours by week
@@ -115,6 +117,8 @@ A comprehensive dashboard was created in Power BI to visualize these key finding
 * Average steps and calories by the hour of the day
 
 **2nd page:**
+
+![alt text](<Dashboards and its pics/Screenshot 2025-10-30 163149.png>)
 
 * Average sleep and Activity
 * Average total steps and sleep by ID
