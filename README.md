@@ -82,11 +82,11 @@ The data preparation was performed using SQL and Power Query in Power BI.
 ## Exploratory Data Analysis (EDA)
 The analysis revealed several key insights into user habits:
 * **Activity Levels:** Users spend the vast majority of their time sedentary (81% of the day). Light active minutes account for 16% of the time, while very active minutes are only 2%.
-* **Calories & Activity:** There is a strong positive correlation between calories burned and other factors like total steps, total distance, and total active minutes.
-* **Daily Patterns:** Users are most active between 6 am and 6 pm, with spikes in both steps and calories burned during this period. Activity drops off significantly after 6 pm.
-* **Weekly Patterns:** Users are most active on Saturdays, recording both the highest average heart rate (82.46 bpm) and the longest average active minutes (244.27 minutes, or 4.1 hours).
-* **Sleep:** On average, users get between 6.6 and 7.5 hours of sleep. They spend the most time in bed and get the most sleep on Sundays (average 452.75 minutes, or 7.5 hours).
-* **Weight & BMI:** Of the 8 users who logged weight, only 3 were in the healthy BMI range (18.5-24.9), while 4 were overweight (25-29.9) and 1 was severely obese (BMI > 40).
+* **Calories & Steps:** There is a strong positive correlation between calories burned and other factors like total steps, total distance, and total active minutes.
+* **Daily Patterns:** Users are most active between 6 am and 9 pm, with spikes in both steps and calories burned during this period. Activity drops off significantly after 9 pm.
+* **Weekly Patterns:** Users are most active on Saturdays, recording both the highest average Activity hours of 3.93
+* **Sleep:** On average, users get between 6.6 and 7.5 hours of sleep. They spend the most time in bed and get the most sleep on Sundays (average 452.75 minutes, or 7.55 hours).
+* **Weight & BMI:** Of the 13 users who logged weight, only 5 were in the healthy BMI range (18.5-24.9), while 6 were overweight (25-29.9) and 2 was severely obese (BMI > 40).
 
 ---
 
@@ -95,31 +95,39 @@ This analysis addresses the key business questions by identifying trends in smar
 
 **Key Findings:**
 1.  **Users are largely sedentary:** The 81% sedentary time highlights a major health risk and an opportunity for intervention.
-2.  **Activity is concentrated:** Users are most active during the day (6 am-6 pm) and on weekends (specifically Saturdays).
+2.  **Activity is concentrated:** Users are most active during the day (6 am-9 pm) and on weekends (specifically Saturdays).
 3.  **Activity directly impacts calories:** The positive correlation between steps/active time and calories burned is a key motivational metric.
 4.  **Sleep habits vary by day:** Users tend to sleep longer on Sundays, likely compensating for the week.
-5.  **Weight management is a concern:** A majority of users (5 out of 8) who tracked weight were in the overweight or obese BMI categories.
+5.  **Weight management is a concern:** A majority of users (8 out of 13) who tracked weight were in the overweight or obese BMI categories.
 
 ---
 
 ## Dashboard
 A comprehensive dashboard was created in Power BI to visualize these key findings. The dashboard includes charts for:
+
+**1st page:**
+
 * Average minutes by activity category (Sedentary, Light, Fairly, Very Active)
 * Correlations between calories and steps, distance, and active minutes
+* Total Activity hours by week
+* Average Intensity by time
+* user tracking details
 * Average steps and calories by the hour of the day
-* Average heart rate and active minutes by the day of the week
+
+**2nd page:**
+
+* Average sleep and Activity
+* Average total steps and sleep by ID
 * Average time in bed and asleep by the day of the week
 * A summary table of average weight and BMI for users
 
 ---
 
 ## How to Run This Project
-(Information not available in the article. You can add your own instructions here.)
 
-*Example:*
-1.  Clone this repository: `git clone https://github.com/your_username/your_project.git`
+1.  Clone this repository: `git clone https://github.com/mohana-123/bellabeat_analysis.git`
 2.  Download the dataset from [Kaggle](https://www.kaggle.com/datasets/arashnic/fitbit).
-3.  Place the 18 CSV files in the `data/` directory.
+3.  Place the 18 CSV files in the `datasets/` directory.
 4.  Open the `Bellabeat_Case_Study.pbix` file in Power BI Desktop.
 5.  Refresh the data sources to connect to the CSV files in your local directory.
 
